@@ -17,7 +17,7 @@ Start this project by cloning the git repository using
 ### Step 1: Cloning the repository to your local system
 For beginners, using windows, it is advised to use GitHub Desktop. 
 - **GitHub Desktop**   
-- **Command Line Interface** using ```git clone https://github.com/canaryGrapher/mist-tor-network.git```
+- **Command Line Interface** using ```git clone https://github.com/Parthiv-M/mist-tor```
 
 ### Step 2: Get Familiar
 The ```package.json``` file contains details of all the dependencies that your website requires. In this project, there are three ```package.json``` files because there are three servers working together simulateously. The ```package.json``` file are for the following:
