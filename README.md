@@ -1,7 +1,7 @@
 # MIST Tor Website
 The official tor website for MIST, made by and for the members of Manipal Information and Security Team. 
 
-![Tor Logo](https://github.com/Parthiv-M/mist-tor-network/blob/master/github_resources/wallpaper.jpg?raw=true)
+![Tor Logo](https://github.com/Parthiv-M/mist-tor/blob/master/github_resources/wallpaper.jpg?raw=true)
 
 
 ## Requirements
@@ -27,24 +27,24 @@ The ```package.json``` file contains details of all the dependencies that your w
 
 ### Step 3: Install the dependencies
 Now, it's time to install the dependencies from the ```package.json``` files. 
-1. Wherever you cloned the repository, navigate to that folder using your terminal/command prompt. Now move into the directory using ```cd mist-tor-network```. This is the **root** folder of the project. You should have reached the folder with following files and folder:
+1. Wherever you cloned the repository, navigate to that folder using your terminal/command prompt. Now move into the directory using ```cd mist-tor```. This is the **root** folder of the project. You should have reached the folder with following files and folder:
 
-![Root Folder](https://github.com/canaryGrapher/mist-tor-network/blob/master/github_resources/root_folder.png?raw=true)
+![Root Folder](https://github.com/Parthiv-M/mist-tor/blob/master/github_resources/root_folder.png?raw=true)
 
 
 2. Now install all the dependencies by typing the command ```yarn install```. If Node.JS and NPM were correctly installed, you should see a progress bar in the command screen.
 3. Now this is done. Two more to go. Using your terminal/command prompt move into the ```client``` folder using ```cd client```.  This folder contains **ReactJS** files. The destination folder should have the following folders and files:
 
-![Frontend Folder](https://github.com/canaryGrapher/mist-tor-network/blob/master/github_resources/client_folder.png?raw=true)
+![Frontend Folder](https://github.com/Parthiv-M/mist-tor/blob/master/github_resources/client_folder.png?raw=true)
 
 
 4. Repeat _Step 2_ to install the dependencies. 
 
-![Vulnerabilities Error](https://github.com/canaryGrapher/mist-tor-network/blob/master/github_resources/audit_fix.png?raw=true)
+![Vulnerabilities Error](https://github.com/Parthiv-M/mist-tor/blob/master/github_resources/audit_fix.png?raw=true)
 
 5. Now that your files are downloaded, one more ```package.json``` file remains. Go back to your **root** folder by typing ```cd ..``` in the same terminal. Now navigate in to the ```backend``` folder using the command ```cd backend```. This folder contains the server of the project. The destination folder should have the following files:
 
-![Backend Folder](https://github.com/canaryGrapher/mist-tor-network/blob/master/github_resources/backend_folder.png?raw=true)
+![Backend Folder](https://github.com/Parthiv-M/mist-tor/blob/master/github_resources/backend_folder.png?raw=true)
 
 
 6. Repeat _Step 2_ to install the dependencies.
