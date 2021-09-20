@@ -1,5 +1,0 @@
-{
-  "mongoURI": "mongodb://localhost:27017/traverse",
-  "jwtSecret": "mysecretToken",
-  "githubToken": "65b837abe4128e371c9e674219c02e7c92f467cc"
-}

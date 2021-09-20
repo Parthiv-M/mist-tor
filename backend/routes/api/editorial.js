@@ -5,10 +5,12 @@ const { check, validationResult } = require('express-validator');
 const auth = require('../../middleware/auth');
 const router = express.Router();
 const News = require('../../models/News');
-const clearance = require('./../../middleware/clearanceauth');
+// const clearance = require('./../../middleware/clearanceauth');
 
 // create a news article
-router.post('/news/create', clearance, async (req, res) => {
+router.post('/news/create', 
+// clearance, 
+async (req, res) => {
 
   if(req.editorial) {
     try{
@@ -35,7 +37,9 @@ router.post('/news/create', clearance, async (req, res) => {
 });
 
 // delete a news article
-router.delete('/news/delete/:headline', clearance, async (req, res) => {
+router.delete('/news/delete/:headline', 
+// clearance, 
+async (req, res) => {
   
   // clearance for webdev head only
   if(req.position=="webdevhead") {

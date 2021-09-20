@@ -4,7 +4,7 @@ const express = require('express');
 const { check, validationResult } = require('express-validator');
 const auth = require('../../middleware/auth');
 const Users = require('../../models/Users');
-const giveclearance = require('../../middleware/clearanceauth');
+// const giveclearance = require('../../middleware/clearanceauth');
 const router = express.Router();
 
 // create a new member profile for freshers
@@ -17,7 +17,8 @@ router.post('/create',
     check('password', 'Password is required').exists()
   ], 
 
-  giveclearance, async (req, res) => {
+  // giveclearance,
+  async (req, res) => {
   
   const errors = validationResult(req);
   if (!errors.isEmpty()) {

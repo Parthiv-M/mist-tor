@@ -13,7 +13,7 @@ const NewsSchema = new Schema({
   },
   // the image associated with the article
   articleImage: {
-    type: URL
+    type: String
   },
   //headline of the article
   headline: {
@@ -28,7 +28,7 @@ const NewsSchema = new Schema({
   },
   // the link to the original article
   sourcelink: {
-    type: URL
+    type: String
   },
   // name of the website the news was picked from
   source: {
@@ -36,7 +36,7 @@ const NewsSchema = new Schema({
   },
   // homepage of the source website
   sourcehome: {
-    type: URL
+    type: String
   },
   date: {
     type: Date,
