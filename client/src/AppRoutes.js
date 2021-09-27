@@ -3,6 +3,7 @@ import { Redirect, Route } from "react-router-dom";
  
 import { useTorState } from "./context";
  
+
 // renders the components according to the routes
 const AppRoutes = ({ component: Component, path, isPrivate, ...rest }) => {
  
@@ -20,7 +21,9 @@ const AppRoutes = ({ component: Component, path, isPrivate, ...rest }) => {
                 )
                 : (
                     <Component {...props} />
+
                 )
+              
             }
             {...rest}
         />

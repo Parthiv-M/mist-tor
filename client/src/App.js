@@ -4,6 +4,7 @@ import routes from './config/routes';
 import { TorProvider } from './context';
 import AppRoute from "./AppRoutes";
 
+
 function App () {
   return (
     <div className="App">
@@ -19,7 +20,10 @@ function App () {
                   isPrivate={route.isPrivate}
                 />
               ))
+             
             }
+     
+           
           </Switch>
         </Router>
       </TorProvider>
