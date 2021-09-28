@@ -7,7 +7,7 @@ const ComplainSchema = new Schema({
     ref: 'user'
   },
   //whatever the complain is
-  complaintext: {
+  complainText: {
     type: String,
     required: true
   },

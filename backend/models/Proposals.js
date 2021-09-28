@@ -7,7 +7,7 @@ const ProposalSchema = new mongoose.Schema({
     ref: 'user'
   },
   //whatever the proposal is
-  proposaltext: {
+  proposalText: {
     type: String,
     required: true
   },
@@ -15,6 +15,12 @@ const ProposalSchema = new mongoose.Schema({
   date: {
     type: Date,
     default: Date.now
+  },
+
+  status: {
+    type: Boolean,
+    required: false,
+    default: null
   }
 });
 
