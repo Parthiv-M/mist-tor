@@ -2,8 +2,14 @@
 
 // import pages
 import LandingPage from "./../pages/LandingPage";
+import LoginPage from "./../pages/LoginPage";
 
-const routes = [  
+const routes = [
+  {
+    path:'/',
+    component: LoginPage,
+    isPrivate: false
+  },  
   {
     path:'/',
     component: LandingPage,
