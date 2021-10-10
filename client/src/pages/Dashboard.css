@@ -1,0 +1,153 @@
+body{
+    background-color: #433C4D;
+}
+.btn1{
+    background-color:#3C3644;
+    border: none;
+    color:white;
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn2{
+    background-color:#3C3644;
+    color:white;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:60%;
+    display:flex;
+    margin-top: 3%;
+    width: 30%;
+    border: none;
+}
+.btn3{
+    background-color:#3C3644;
+    color:white;
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    border: none;
+}
+.btn4{
+    background-color:#3C3644;
+    color:white;
+   margin-left: 35%;
+   margin-top: 4%;
+   width: 30%;
+   height: 70px;
+   border-radius: 7px;
+   border: none;
+}
+    
+
+
+.box{
+    background-color:  #59316B;
+    margin-top: 10px;
+    height: 500px;
+    
+}
+.footer{
+    background-color: #490260;
+    height: 140px;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+}
+.line{
+width: 400px;
+left: -8px;
+border: 1.5px solid #7D4696;
+border-radius: 2px;
+}
+.line2{
+    width: 250px;
+   border: 1.5px solid white;
+   border-radius: 2px;
+}
+.line3{
+    width: 300px;
+   border: 1.5px solid #7D4696;
+   border-radius: 2px;
+   margin-top: 5px;
+}
+.ip{
+    color: white;
+   font-size: 20px;
+   letter-spacing: 8px;
+   margin-top: 10px;
+}
+.para{
+    width: 40%;
+    position: relative;
+    color: white;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.para2{
+  
+    position: relative;
+    color: white;
+    margin-top: 2%;
+    margin-left: 60px;
+    width: 60%;
+}
+.para3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 40px;
+}
+.para4{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+
+
+.heading{
+    position: absolute;
+    font-size: 80px;
+    letter-spacing: 0.1em;
+    color: #F5F5F5;
+    margin-left: 10px;
+
+}
+.the{
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.net{
+    color: white;
+    margin-top: 7%;
+    margin-left: 10px;
+    font-size: 30px;
+    word-spacing: 0.5em;
+    letter-spacing: 7px;
+}
+.middle{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10%;
+    }
+.middle2{
+    width:35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 35%;
+    margin-top: 10%;
+   
+}    
+.bi{
+    margin-right: 30px;
+}
