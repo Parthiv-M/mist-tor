@@ -60,6 +60,12 @@ const LoginPage = () => {
 <div className ="align7">
 <img src={align7} align="right" />
 </div>
+<div className ="align10" >
+  <input name = "USERNAME" id = "search" placeholder="USERNAME" />
+</div>
+<div className ="align11" >
+   <input name="PASSWORD" id = "search" placeholder="PASSWORD" />
+</div>
 <div className="align8">
 <img src={align8} align="right" />
 </div>
