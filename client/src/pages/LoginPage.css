@@ -1,6 +1,6 @@
 .wrapper{
   width: 100%;
-  height: 130vh;
+  height: 138vh;
   margin: 0;
   background-color: #7D4696 ;
 }
@@ -74,6 +74,20 @@ position: absolute;
 margin-left: 0%;
 margin-top: 55%;
 }
+.align10{
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 41%;
+  }
+  .align11{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 45%;
+    }
+  #search{    
+      background-color : rgb(75,58,85);
+      border:0px;
+     }
 
 .topnav {
 overflow: hidden;
