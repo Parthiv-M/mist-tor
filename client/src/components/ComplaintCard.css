@@ -1,0 +1,57 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.mainCard{
+    margin: auto;
+    margin-top: 5%;
+    height: auto;
+    background: #3C3644;
+    color: #fff;
+    border-radius: 15px;
+}    
+.btn-propose{
+
+    margin-left: 81.7%;
+    margin-bottom: 5%;
+    background: #1A171D;
+    font-weight: 800;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    
+}
+.btn-propose:hover{
+    background: #490260;
+}
+.closeBtn:hover{
+    background: #3C3644;
+}
+.Box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #F5F5F591;
+    background: #3C3644;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px;
+}
+@media screen and (max-width: 637px) {
+    .btn-propose{
+    margin-bottom: 0px;
+    margin-left: 40%;
+    }
+    
+    }
+ @media screen and (max-width: 500px) {
+        .btn-propose{
+        margin-bottom: 0px;
+        margin-left: 30%;
+        }
+        
+ }
