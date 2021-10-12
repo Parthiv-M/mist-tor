@@ -17,7 +17,9 @@ import align9 from "./images/Frame-2.png";
 
 const LoginPage = () => {
     return (
+      
         <div className ="wrapper">
+          <div className="img">
           <div className = "align0">
 <img src={align0}  align="left" />
 </div>
@@ -71,6 +73,7 @@ const LoginPage = () => {
 </div>
 <div className = "align9 ">
 <img src={align9}  align="center" />
+</div>
 </div>
 </div>
     )
