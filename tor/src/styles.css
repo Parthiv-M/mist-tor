@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
+}
+
+#parent{
+    position: relative;
+}
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+form{
+    z-index:1;
+}
+
+.announcement-name{
+    position: absolute;
+width: 1232px;
+height: 82px;
+left: 180px;
+top: 240px;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px;
+background: #3C3644;
+
+}
+.details{
+    position: absolute;
+width: 1232px;
+height: 309px;
+left: 180px;
+top: 370px;
+
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px;
+background: #3C3644;
+}
+
+.date-time{
+    position: absolute;
+width: 317px;
+height: 60px;
+left: 180px;
+top: 770px;
+background: #3C3644;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px;
+background: #3C3644;
+}
+p{
+    position:absolute;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.date-text{
+    left: 200px;
+    top: 740px;
+    font-size: 25px;
+}
+
+.venue{
+    position: absolute;
+width: 300px;
+height: 60px;
+left: 530px;
+top: 770px;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px;
+background: #3C3644;
+}
+.venue-text{
+    left: 550px;
+    top: 740px;
+    font-size: 25px;
+}
+.link{
+    position: absolute;
+width: 545px;
+height: 60px;
+left: 860px;
+top: 770px;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px;
+background: #3C3644;
+}
+.link-text{
+    left: 880px;
+    top: 740px;
+    font-size: 25px;
+
+}
+.announcement-name::-webkit-input-placeholder{
+    font-family:"Ubuntu", "times new roman", times, "roman", serif;
+    color: #F5F5F591;
+    font-size: large;
+    
+    
+}
+.details::-webkit-input-placeholder{
+    font-family:"Ubuntu", "times new roman", times, "roman", serif;
+    color: #F5F5F591;
+    font-size: 20px;
+    
+}
+input[type="text"]{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+input[type="url"]{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+input[type="datetime"]{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.create{
+    position: absolute;
+    right: 180px;
+    top: 880px;
+    width: 200px;
+    height: 60px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family:"Ubuntu", "times new roman", times, "roman", serif; 
+    font-size: 25px;
+    
+}
+ .upload{
+    position: absolute;
+    top:880px;
+    left: 220px;
+    
+}
+.close {
+    position: absolute;
+    left: 138px;
+    top: 140px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    background-color: #3C3644;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color:#FFFFFF;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  .announcement{
+    position: absolute;
+    width: 1232px;
+    height: 82px;  
+    left: -1px;
+    top: -10px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #3C3644;
+  }
+  .detail{
+    position: absolute;
+    width: 1232px;
+    height: 309px;
+    left: -1px;
+    top: -10px;
+    
+    
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #3C3644;
+    }
+    .date{
+        position: absolute;
+        width: 317px;
+        height: 60px;
+        left: 180px;
+        top: 770px;
+        
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 25px;
+        background: #3C3644;
+    }
+  .location{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 530px;
+    top: 770px;
+    
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #3C3644;
+
+  }
+  .url{
+    position: absolute;
+    width: 545px;
+    height: 60px;
+    left: 860px;
+    top: 770px;
+    
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #3C3644;
+  }
+  
+
