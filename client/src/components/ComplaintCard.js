@@ -1,26 +1,26 @@
 import React from "react"
 const ComplaintCard = () => {
    return (
-       <div class="mainCard  rounded-none sm:rounded-lg max-w-3xl">
-        <div class="closeBtn px-2 py-2 sm:px-3 sm:py-4">
-            <button type="button" class="close bg-#fffff px-2">
-             <span class="sr-only">Close menu</span>
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-                <circle cx="12" cy="12" r="10"></circle>
-                <line x1="15" y1="9" x2="9" y2="15"></line>
-                <line x1="9" y1="9" x2="15" y2="15"></line></svg>
-           </button>
-        </div>
-            <div class="px-10 py-9 sm:px-15 sm:py-0">
+      <div class="mainCard  rounded-none sm:rounded-lg max-w-3xl">
+            <div class="px-7 py-9 sm:px-9 sm:py-0">
                 <div class="grid-rows-1">
-                    <input class="Box px-3" type="text" size="30" placeholder="Subject...">
+                    <div class="Box1 px-1 py-5">BULLYING</div>
+                    <div class="Date px-1 py-0.3"> 20 DEC 2020</div>
                 </div>
                 <div class="grid-rows-1">
-                 <textarea class="Box px-3" type="text" rows="5" cols="50" placeholder="Write your Complain here..."></textarea>
+                    <div style="border: 1px solid #7D4696; height:0px;width: 230px;margin-top: 5.2%;margin-left: 0.4%;position: absolute;"></div>
+                </div>
+        
+                <div class="grid-rows-1">
+                 <div class="Box2 px-1 py-1">Mehul Maheshwari</div>
+                </div>
+                <div class="grid-rows-1">
+                    <div class="Box3 px-1 py-1">Pal Cheda is bullying me man. she is beating me to write her and her friends lab record books and even ordering me to bring delivery from KC and not giving that money also. Please, look into this problem. Please save me.</div>
+                </div>
                 </div>
                 
                 <div  class="grid-rows-1">
-                 <button class="btn-propose text-white font-weight:900 py-2 px-6 text-l mr-4">COMPLAIN</button>
+                 <div class="Review px-1 py-0.5">REVIEWED</div>
             </div>
 
         </div>
