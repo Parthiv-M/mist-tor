@@ -1,0 +1,25 @@
+.wrapper {
+    background: #59316B;;
+    background-size: cover;
+}
+@media screen and  (max-width:640px) and (min-width:499px){
+    .line1{
+        width:40% !important;
+    }
+    .head{
+        height: 20% !important;
+        margin-top: 20%;
+    }
+}
+@media screen and  (max-width:500px) and (min-width:150px)
+{
+    .line1{
+        width:60% !important;
+    }
+    .head{
+        height: 20% !important;
+        margin-top: 32%;
+
+    }
+
+}
