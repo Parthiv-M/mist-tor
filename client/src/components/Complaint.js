@@ -1,7 +1,7 @@
 import React from "react"
 const Complaint = () => {
    return (
-       <div><div class="mainCard  shadow rounded-none sm:rounded-lg max-w-3xl">
+       <div> <div class="mainCard  shadow rounded-none sm:rounded-lg max-w-3xl m-auto h-auto bg-gray-800 text-white mt-10">
         <div class="closeBtn px-2 py-2 sm:px-3 sm:py-4">
             <button type="button" class="close bg-#fffff p-1 inline-flex items-center justify-center text-white-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
              <span class="sr-only">Close menu</span>
@@ -13,13 +13,13 @@ const Complaint = () => {
         </div>
             <div class="px-10 py-9 sm:px-15 sm:py-0">
                 <div class="grid-rows-1">
-                    <input class="Box px-3" type="text" size="30" placeholder="Subject">
+                    <input class="Box rounded-lg px-3 mt-5 mb-5 ml-auto mr-auto border-2 w-full p-2" type="text" size="30" placeholder="Subject">
                 </div>
                 <div class="grid-rows-1">
-                 <textarea class="Box px-3" type="text" rows="5" cols="50" placeholder="Write your Complaint here..."></textarea>
+                 <textarea class="Box rounded-lg px-3 mt-5 mb-5 ml-auto mr-auto border-2 w-full p-2" type="text" rows="5" cols="50" placeholder="Write your Complaint here..."></textarea>
                 </div>
                 <div  class="grid-rows-1">
-                 <button class="btn-complain text-white font-weight:900 py-2 px-6 text-l mr-4">COMPLAIN</button>
+                 <button class="btn-complain rounded-lg shadow-2xl mb-10 font-extrabold mr text-white font-weight:900 py-2 px-6 text-l mr-4 hover:bg-pink-900">COMPLAIN</button>
             </div>
 
         </div>
