@@ -1,408 +1,95 @@
-@media only screen and (min-width: 1080px) {
-.wrapper{
-  width: 100%;
-  min-height: 137vh;
-  margin: 0;
-  background-color: #7D4696 ;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-.align0{
-position: absolute;
-margin-left: 0%;
-margin-top: 0%;
-}
-.align01{
-position: absolute;
-margin-left: 55%;
-margin-top: 0%;
-}
-.align02{
-position: absolute;
-margin-left: 1%;
-margin-top: 15%; 
-}
-.align03{
-position: absolute;
-margin-left: 65%;
-margin-top: 18%;
-}
-.align1{
-position: absolute;
-margin-left: 12%;
-margin-top: 24%;
-}
-.align2{
-position: absolute;
-margin-left: 12%;
-margin-top: 27%;
-}
-.align3{
-position: absolute;
-margin-left: 12%;
-margin-top: 34%;
-}
-.align4{
-position: absolute;
-margin-left: 10%;
-margin-top: 48%;
-}
-.align5{
-position: absolute;
-margin-left: 41%;
-margin-top: 47%;
-}
-.align06{
-  position: absolute;
-  margin-left: 64%;
-  margin-top: 37%;
-}
-.align6{
-position: absolute;
-margin-left: 68.5%;
-margin-top: 40%;
-}
-.align7{
-position: absolute;
-margin-left: 67%;
-margin-top: 51.5%;
-}
-.align8{
-position: absolute;
-margin-left: 81%;
-margin-top: 51.5%;
-}
-.align9{
-position: absolute;
-margin-left: 0%;
-margin-top: 55%;
-}
-.align10{
-  position: absolute;
-  margin-left: 70%;
-  margin-top: 41%;
-  }
-  .align11{
-    position: absolute;
-    margin-left: 70%;
-    margin-top: 45%;
-    }
-  #search{    
-      background-color : rgb(75,58,85);
-      border:0px;
-     }
 
-.topnav {
-overflow: hidden;
-position:absolute;
-margin-left:67% ;
-}
-
-.topnav a {
-float: left;
-display: block;
-color: white;
-text-align: left;
-padding: 17px 47px;
-text-decoration: none;
-font-size: 20px;
-}
-
-.topnav .icon {
-display: none;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-}
-
-@media only screen and (max-width: 600px) {
   .wrapper{
     width: 100%;
-    height: 65vh;
+    min-height: 146vh;
     margin: 0;
     background-color: #7D4696 ;
   }
-  img {
-    width: 65%;
-    height: auto;
-  }
-  .align0{
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 0%;
-  }
-  .align01{
-  position: absolute;
-  margin-left: 55%;
-  margin-top: 0%;
-  }
-  .align02{
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 15%; 
-  width: 75%;
 
-  }
-  .align03{
-  position: absolute;
-  margin-left: 50%;
-  margin-top: 18%;
-  width:50%;
-  }
   .align1{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 24%;
-  }
-  .align2{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 27%;
-  }
-  .align3{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 34%;
-  }
-  .align4{
-  position: absolute;
-  margin-left: 10%;
-  margin-top: 48%;
-  }
-  .align5{
-  position: absolute;
-  margin-left: 41%;
-  margin-top: 47%;
-  }
-  .align06{
-  position: absolute;
-  margin-left: 64%;
-  margin-top: 37%;
-  }
-  .align6{
-  position: absolute;
-  margin-left: 68.5%;
-  margin-top: 40%;
-  }
-  .align7{
-  position: absolute;
-  margin-left: 67%;
-  margin-top: 51.5%;
-  }
-  .align8{
-  position: absolute;
-  margin-left: 81%;
-  margin-top: 51.5%;
-  }
-  .align9{
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 70%;
-  width: 154%;
-  height : auto;
-  }
-  .align10{
     position: absolute;
-    margin-left: 70%;
-    margin-top: 41%;
-    width: 50%;
+    margin-left: 0%;
+    margin-top: 0%;
     }
-    .align11{
-      position: absolute;
-      margin-left: 70%;
-      margin-top: 45%;
-      width: 50%;
-      }
-    #search{    
-        background-color : rgb(75,58,85);
-        border:0px;
-       }
-  
-  .topnav {
-  overflow: hidden;
-  position:absolute;
-  margin-left: 76% ;
-  }
-  
-  .topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: left;
-  padding: 2px 5px;
-  text-decoration: none;
-  font-size: 10px;
-  }
-  
-  .topnav .icon {
-  display: none;
-  }
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; 
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-@media only screen and (max-width:1080px) {
-  .wrapper{
-    width: 100%;
-    height: 122vh;
-    margin: 0;
-    background-color: #7D4696 ;
-  }
-  img {
-    width: 65%;
-    height: auto;
-  }
-  .align0{
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 0%;
-  }
-  .align01{
-  position: absolute;
-  margin-left: 55%;
-  margin-top: 0%;
-  }
-  .align02{
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 15%; 
-  width: 75%;
-
-  }
-  .align03{
-  position: absolute;
-  margin-left: 41%;
-  margin-top: 10%;
-  width:50%;
-  }
-  .align1{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 26%;
-  width: 10%;
-  }
-  .align2{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 30%;
-  width: 40%;
-  }
-  .align3{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 38%;
-  width: 25%;
-  }
-  .align4{
-  position: absolute;
-  margin-left: 10%;
-  margin-top: 50%;
-  }
-  .align5{
-  position: absolute;
-  margin-left: 37%;
-  margin-top: 49%;
-  }
-  .align06{
-  position: absolute;
-  margin-left: 58%;
-  margin-top: 32%;
-  width: 60%;
-  }
-  .align6{
-  position: absolute;
-  margin-left: 63%;
-  margin-top: 35%;
-  width: 58%;
-  }
-  .align7{
-  position: absolute;
-  margin-left: 55%;
-  margin-top: 47%;
-  }
-  .align8{
-  position: absolute;
-  margin-left: 70%;
-  margin-top: 47%;
-  }
-  .align9{
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 58%;
-  width: 154%;
-  height : auto;
-  }
-  .align10{
+    .align2{
     position: absolute;
-    margin-left: 65%;
-    margin-top: 36%;
+    margin-left: 66%;
+    margin-top: 0%;
     }
-    .align11{
+    .align3{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15%;
+    }
+    .align4{
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 15%;
+    }
+    .align5{
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 35%;
+    }
+    .align6{
       position: absolute;
-      margin-left: 65%;
-      margin-top: 41%;
+      margin-left: 60%;
+      margin-top: 38%;
+    }
+    .align7{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 63%;
+    }
+    .text1{
+      position: absolute;
+      margin-left: 25%;
+      margin-top: 0%;
       }
-    #search{    
-        background-color : rgb(75,58,85);
-        border:0px;
-       }
-  
-  .topnav {
-  overflow: hidden;
-  position:absolute;
-  margin-left: 76% ;
-  }
-  
-  .topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: left;
-  padding: 2px 15px;
-  text-decoration: none;
-  font-size: 20px;
-  }
-  
-  .topnav .icon {
-  display: none;
-  }
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; 
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-
-
-
-
+    .text2{
+      position: absolute;
+      margin-left: 50%;
+      margin-top: 0%;
+      }
+      .text3{
+        position: absolute;
+        margin-left: 75%;
+        margin-top: 0%;
+        }
+      .text4{
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 20%;
+        }
+      .text5{
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 29%;
+        }
+        .text6{
+          position: absolute;
+          margin-left: 25%;
+          margin-top: 39%;
+          }
+        .text7{
+          position: absolute;
+          margin-left: 25%;
+          margin-top: 69%;
+          max-width: 100%;
+          }
+          .text8{
+            position: absolute;
+            margin-left: 60%;
+            margin-top: 50%;
+            }
+          .form1{
+            position: absolute;
+            margin-left: 6%;
+            margin-top: 2%;
+            }
+          .form2{
+            position: absolute;
+            margin-left: 6%;
+            margin-top: 16%;
+            }
+ 
