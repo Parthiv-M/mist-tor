@@ -1,80 +1,79 @@
 import React from 'react';
 import './LoginPage.css';
-import align0 from "./images/Frame copy.png";
-import align01 from "./images/Frame.png";
-import align02 from "./images/Frame-3.png";
-import align03 from "./images/Group.png";
-import align1 from "./images/Vector copy.png";
-import align2 from "./images/Vector copy 2.png";
-import align3 from "./images/Vector copy 3.png";
-import align4 from "./images/Vector.png";
-import align5 from "./images/Vector-2.png";
-import align06 from "./images/Group-2 copy.png";
-import align6 from "./images/Group-2 copy 2.png";
-import align7 from "./images/Vector-3.png";
-import align8 from "./images/Vector-4.png";
-import align9 from "./images/Frame-2.png";
+import align1 from "./images/nav1.png";
+import align2 from "./images/nav2.png";
+import align3 from "./images/top.png";
+import align4 from "./images/side.png";
+import align5 from "./images/side1.png";
+import align6 from "./images/side2.png";
+import align7 from "./images/bottom.png";
 
 const LoginPage = () => {
     return (
       
         <div className ="wrapper">
-          <div className="img">
-          <div className = "align0">
-<img src={align0}  align="left" />
-</div>
-<div className = "align01">
-<img src={align01}  align="right" />
-</div>
-<div className="topnav" id="myTopnav">
-  <a href="#news">BLOG</a>
-  <a href="#contact">NEWS</a>
-  <a href="#about">TEAM</a>
-</div>
+    <div className="align1">
+    <img className="object-left-top sm:w-1/2 md:w-3/4 lg:w-auto" src={align1} align="left" />
+    </div>
+    <div className="align2">
+    <img className="object-right-top sm:w-1/2 md:w-3/4 lg:w-auto " src={align2} align="right" />
+    <div className="text1">
+      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between p-1 absolute " href="#news">BLOG</a>
+      </div>
+      <div className="text2">
+      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between p-1 absolute " href="#contact">NEWS</a>
+      </div>
+      <div className="text3">
+      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between p-1 absolute " href="#about">TEAM</a>
+    </div>
+    </div>
 
-<div className = "align02">
-<img src={align02}  align="left" />
-</div>
-<div className = "align03">
-<img src={align03}  align="right" />
-</div>
-<div className = "align1 ">
-<img src={align1} align="left" />
-</div>
-<div className = "align2 ">
-<img src={align2} align="left" />
-</div>
-<div className = "align3 ">
-<img src={align3} align="left" />
-</div>
-<div className = "align4 ">
-<img src={align4} align="left" />
-</div>
-<div className = "align5 ">
-<img src={align5} align="left" />
-</div>
-<div className = "align06 ">
-<img src={align06} />
-</div>
-<div className="align6">
-<img src={align6} />
-</div>
-<div className ="align7">
-<img src={align7} align="right" />
-</div>
-<div className ="align10" >
-  <input name = "USERNAME" id = "search" placeholder="USERNAME" />
-</div>
-<div className ="align11" >
-   <input name="PASSWORD" id = "search" placeholder="PASSWORD" />
-</div>
-<div className="align8">
-<img src={align8} align="right" />
-</div>
-<div className = "align9 ">
-<img src={align9}  align="center" />
-</div>
-</div>
+      <div className="md:grid-cols-2 lg:grids-cols-2">
+        <div className="section1">
+    <div className="align3">
+    <img className="object-left sm:w-1/2 md:w-3/4 lg:w-auto relative" src={align3} align="left" />
+    <div className="text4">
+    <p className="text-left absolute sm:text-md md:text-xl lg:text-3xl text-white text-opacity-100" >the</p>
+    </div>
+    <div className="text5">
+    <p className="text-left absolute sm:text-xl md:text-3xl lg:text-6xl text-white text-opacity-100">MIST</p>
+    </div>
+    <div className="text6">
+    <p className="text-left absolute sm:text-md md:text-xl lg:text-3xl text-white text-opacity-100">tor project</p>
+    </div>
+    <div className="text7">
+    <p className="text-left absolute sm:text-sm md:text-md lg:text-lg text-white text-opacity-100">privacy is a myth..</p>
+    </div>
+  </div>
+  </div>
+<div className="section2">
+<div className="align4">
+  <img className="object-right sm:w-1/2 md:w-3/4 lg:w-auto " src={align4} align="right" />
+  </div>
+  <div className="align5">
+    <img className="object-right sm:w-1/2 md:w-3/4 lg:w-auto" src={align5} align="right" />
+    </div>
+    <div className="align6">
+    <img className="object-right mix-overlay sm:w-1/2 md:w-3/4 lg:w-auto" src={align6} align="right" />
+  <form className="modal-content animate " action="/action_page.php" method="post">
+    <div className="form1">
+      <input name = "USERNAME" id = "search" placeholder="USERNAME" />
+      </div>
+      <div className="form2">
+      <input name="PASSWORD" id = "search" placeholder="PASSWORD" />
+      </div>
+      <button type="submit"></button>
+    </form>
+    </div>
+    <div className="text8">
+    <p className=" text-left absolute sm:text-sm md:text-md lg:text-lg text-white text-opacity-100">forgot password?click here</p>
+  </div>
+  </div>
+  </div>
+
+  <div className="align7">
+  <img className="object-bottom sm:w-auto md:w-auto lg:w-auto" src={align7} align="left" />
+  </div>
 </div>
     )
 }
