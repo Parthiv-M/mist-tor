@@ -1,7 +1,7 @@
 
   .wrapper{
     width: 100%;
-    min-height: 146vh;
+    min-height: 120vh;
     margin: 0;
     background-color: #7D4696 ;
   }
@@ -19,27 +19,27 @@
     .align3{
     position: absolute;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
     }
     .align4{
     position: absolute;
     margin-left: 57%;
-    margin-top: 15%;
+    margin-top: 10%;
     }
     .align5{
     position: absolute;
     margin-left: 57%;
-    margin-top: 35%;
+    margin-top: 30%;
     }
     .align6{
       position: absolute;
       margin-left: 60%;
-      margin-top: 38%;
+      margin-top: 33%;
     }
     .align7{
     position: absolute;
     margin-left: 0%;
-    margin-top: 63%;
+    margin-top: 50%;
     }
     .text1{
       position: absolute;
@@ -80,7 +80,7 @@
           .text8{
             position: absolute;
             margin-left: 60%;
-            margin-top: 50%;
+            margin-top: %;
             }
           .form1{
             position: absolute;
