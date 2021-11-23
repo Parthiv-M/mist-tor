@@ -54,19 +54,20 @@ const LoginPage = () => {
     <img className="object-right sm:w-1/2 md:w-3/4 lg:w-auto" src={align5} align="right" />
     </div>
     <div className="align6">
-    <img className="object-right mix-overlay sm:w-1/2 md:w-3/4 lg:w-auto" src={align6} align="right" />
+    <img style={{height:"fit-content"}} className="object-right mix-overlay sm:w-1/2 md:w-3/4 lg:w-auto" src={align6} align="right" />
   <form className="modal-content animate " action="/action_page.php" method="post">
     <div className="form1">
       <input name = "USERNAME" id = "search" placeholder="USERNAME" />
       </div>
       <div className="form2">
-      <input name="PASSWORD" id = "search" placeholder="PASSWORD" />
+      <input name="PASSWORD" type="password" id = "search" placeholder="PASSWORD" />
       </div>
       <button type="submit"></button>
-    </form>
+  </form>
+  <p className=" text-left absolute sm:text-sm md:text-md lg:text-lg text-white text-opacity-100">forgot password?click here</p>
     </div>
-    <div className="text8">
-    <p className=" text-left absolute sm:text-sm md:text-md lg:text-lg text-white text-opacity-100">forgot password?click here</p>
+    <div className="text8 ">
+    
   </div>
   </div>
   </div>
