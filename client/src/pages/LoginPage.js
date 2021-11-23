@@ -12,19 +12,13 @@ const LoginPage = () => {
     return (
       
         <div className ="wrapper">
-    <div className="align1">
     <img className="object-left-top sm:w-1/2 md:w-3/4 lg:w-auto" src={align1} align="left" />
-    </div>
     <div className="align2">
     <img className="object-right-top sm:w-1/2 md:w-3/4 lg:w-auto " src={align2} align="right" />
-    <div className="text1">
-      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between p-1 absolute " href="#news">BLOG</a>
-      </div>
-      <div className="text2">
-      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between p-1 absolute " href="#contact">NEWS</a>
-      </div>
-      <div className="text3">
-      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between p-1 absolute " href="#about">TEAM</a>
+    <div className="flex">
+      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between pt-1 pl-20 " href="#blog">BLOG</a>
+      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between pt-1 pr-20 " href="#news">NEWS</a>
+      <a className="text-white sm:text-sm md:text-md lg:text-lg text-right justify-between pt-1 pr-40 " href="#team">TEAM</a>
     </div>
     </div>
 
@@ -57,18 +51,15 @@ const LoginPage = () => {
     <img style={{height:"fit-content"}} className="object-right mix-overlay sm:w-1/2 md:w-3/4 lg:w-auto" src={align6} align="right" />
   <form className="modal-content animate " action="/action_page.php" method="post">
     <div className="form1">
-      <input name = "USERNAME" id = "search" placeholder="USERNAME" />
+      <input style={{backgroundColor:"transparent"}} name = "USERNAME" id = "search" placeholder="USERNAME" />
       </div>
       <div className="form2">
-      <input name="PASSWORD" type="password" id = "search" placeholder="PASSWORD" />
+      <input style={{backgroundColor:"transparent"}} name="PASSWORD" type="password" id = "search" placeholder="PASSWORD" />
       </div>
       <button type="submit"></button>
   </form>
   <p className=" text-left absolute sm:text-sm md:text-md lg:text-lg text-white text-opacity-100">forgot password?click here</p>
     </div>
-    <div className="text8 ">
-    
-  </div>
   </div>
   </div>
 
