@@ -5,8 +5,8 @@ body {
 }
 
 .login-card {
-    height: 200px;
-    width: 490px;
+    height: 170px;
+    width: 450px;
     background-size: contain;
     background-image: url("./../assets/landing/login.png");
     background-repeat: no-repeat;
@@ -15,7 +15,13 @@ body {
 
 @media only screen and (max-width: 812px) {
     .login-card {
-        height: 200px;
-        width: 380px;
+        height: 170px;
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .login-card {
+        height: 100px;
+        width: 250px;
     }
 }
