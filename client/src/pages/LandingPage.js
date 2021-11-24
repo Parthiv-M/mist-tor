@@ -1,9 +1,9 @@
 import React from "react";
 
-import left from "./../assets/landing/left.png"
-import right from "./../assets/landing/right.png"
-import banner from "./../assets/landing/header.png"
-import hacker from "./../assets/landing/hacker.png"
+import left from "./../images/left.png"
+import right from "./../imagesright.png"
+import banner from "./../images/header.png"
+import hacker from "./../images/hacker.png"
 
 const LandingPage = () => {
     return (
