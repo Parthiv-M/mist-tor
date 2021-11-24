@@ -1,17 +1,10 @@
 import React from "react";
 
-<<<<<<< Updated upstream
 import left from "./../images/left.png"
-import right from "./../imagesright.png"
+import right from "./../images/right.png"
 import banner from "./../images/header.png"
 import hacker from "./../images/hacker.png"
-=======
-import left from "./../assets/landing/left.png"
-import right from "./../assets/landing/right.png"
-import banner from "./../assets/landing/header.png"
-import hacker from "./../assets/landing/hacker.png"
-import footer from "./../assets/landing/footer.png"
->>>>>>> Stashed changes
+import footer from "./../images/footer.png"
 
 const LandingPage = () => {
     return (
