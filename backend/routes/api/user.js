@@ -6,8 +6,8 @@ const auth = require('../../middleware/auth');
 const router = express.Router();
 
 // accept user name as registration number and password to authenticate
-router.post('/auth', async (req, res) => {
-  //write your code here
+router.post('/profile', async (req, res) => {
+  // write your code here
 });
 
 // accept user password to verify along with password and verify password

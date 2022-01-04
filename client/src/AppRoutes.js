@@ -15,7 +15,7 @@ const AppRoutes = ({ component: Component, path, isPrivate, ...rest }) => {
                 // redirect to sign in page if no token is present
                 isPrivate && !Boolean(userDetails.token) ? (
                     <Redirect
-                        to={{ pathname: "/signIn" }}
+                        to={{ pathname: "/" }}
                     />
                 )
                 : (

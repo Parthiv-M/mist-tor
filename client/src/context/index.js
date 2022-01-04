@@ -1,9 +1,12 @@
-import { signUpUser } from './actions';
+import { signInUser, getProfile, makeComplain, createProposal } from './actions';
 import { TorProvider, useTorDispatch, useTorState } from './context';
  
 export { 
     TorProvider, 
     useTorState, 
     useTorDispatch,  
-    signUpUser
+    signInUser,
+    getProfile,
+    makeComplain, 
+    createProposal
 };

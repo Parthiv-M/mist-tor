@@ -6,6 +6,10 @@ const ProposalSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'user'
   },
+  heading: {
+    type: String, 
+    required: true
+  },
   //whatever the proposal is
   proposaltext: {
     type: String,

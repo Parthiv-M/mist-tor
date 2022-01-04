@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import routes from './config/routes';
 import { TorProvider } from './context';
 import AppRoute from "./AppRoutes";
-import "./styles/global.css"
+import "./App.css"
 
 function App () {
   return (
